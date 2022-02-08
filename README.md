@@ -2,12 +2,14 @@
 A simple PHP commandline weather application using the openweathermap API
 **NOTE: You will need an api key for the API. You can get it at: https://home.openweathermap.org/users/sign_up**
 
-## to build the composer containers
-docker compose build -d
+## to build the composer containers and start the documentation server:
+
+```docker-compose up -d```
 
 ## To run the app itself:
 
 ### For interactive weather console
+
  ```docker run -it -e API_KEY='YOUR OPENWEATHER API KEY' weather-app_app bash```
  
  And then:
