@@ -4,13 +4,16 @@ services:
     build:
       context: .
       dockerfile: ./docker/app/Dockerfile
+      container_name: weatherapp_app
   tests:
     build:
       context: .
       dockerfile: ./docker/tests/Dockerfile
+      container_name: weatherapp_tests
   docs:
     build:
       context: ./docs
       dockerfile: ../docker/docs/Dockerfile
     ports:
       - 8080:80
+    container_name: weatherapp_docs
