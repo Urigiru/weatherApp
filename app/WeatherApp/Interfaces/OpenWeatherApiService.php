@@ -49,7 +49,7 @@ class OpenWeatherApiService
         ]);
 
         if ($curl->error) {
-            throw new CouldNotConnectToServiceException($curl->errorCode . ': ' . $curl->errorMessage);
+            throw new CouldNotConnectToServiceException( $curl->errorMessage, $curl->errorCode);
         }
         return $curl->response;
     }

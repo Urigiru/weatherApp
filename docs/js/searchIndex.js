@@ -251,10 +251,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/WeatherApp-Presentation-ErrorPresenter.html#method_presentError"
         },                {
-            "fqsen": "\\WeatherApp\\Presentation\\ErrorPresenter\u003A\u003AOUTPUT_STRING",
-            "name": "OUTPUT_STRING",
+            "fqsen": "\\WeatherApp\\Presentation\\ErrorPresenter\u003A\u003ADEFAULT_OUTPUT_STRING",
+            "name": "DEFAULT_OUTPUT_STRING",
+            "summary": "Format\u0020for\u0020the\u0020error",
+            "url": "classes/WeatherApp-Presentation-ErrorPresenter.html#constant_DEFAULT_OUTPUT_STRING"
+        },                {
+            "fqsen": "\\WeatherApp\\Presentation\\ErrorPresenter\u003A\u003ACITY_NOT_FOUND_OUTPUT_STRING",
+            "name": "CITY_NOT_FOUND_OUTPUT_STRING",
             "summary": "",
-            "url": "classes/WeatherApp-Presentation-ErrorPresenter.html#constant_OUTPUT_STRING"
+            "url": "classes/WeatherApp-Presentation-ErrorPresenter.html#constant_CITY_NOT_FOUND_OUTPUT_STRING"
         },                {
             "fqsen": "\\WeatherApp\\Presentation\\WeatherReportPresenter",
             "name": "WeatherReportPresenter",
@@ -268,7 +273,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\WeatherApp\\Presentation\\WeatherReportPresenter\u003A\u003AOUTPUT_STRING",
             "name": "OUTPUT_STRING",
-            "summary": "",
+            "summary": "Format\u0020for\u0020the\u0020output",
             "url": "classes/WeatherApp-Presentation-WeatherReportPresenter.html#constant_OUTPUT_STRING"
         },                {
             "fqsen": "\\",

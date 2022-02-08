@@ -12,8 +12,10 @@ use WeatherApp\Domain\WeatherReport;
  * @package WeatherApp\Presentation
  */
 class WeatherReportPresenter
-
 {
+    /**
+     * Format for the output
+     */
     private const OUTPUT_STRING = "%s, %s degrees Celcius" . PHP_EOL;
 
     /**
