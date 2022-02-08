@@ -1,0 +1,16 @@
+version: '3'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: ./docker/app/Dockerfile
+  tests:
+    build:
+      context: .
+      dockerfile: ./docker/tests/Dockerfile
+  docs:
+    build:
+      context: ./docs
+      dockerfile: ../docker/docs/Dockerfile
+    ports:
+      - 8080:80
