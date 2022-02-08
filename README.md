@@ -7,7 +7,7 @@ docker compose build -d
 
 ## To run the app itself:
 
-### for interactive weather console
+### For interactive weather console
  ```docker run -it -e API_KEY='YOUR OPENWEATHER API KEY' weather-app_app bash```
  
  And then:
