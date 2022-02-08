@@ -1,5 +1,6 @@
 # weatherApp
 A simple PHP commandline weather application using the openweathermap API
+**NOTE: You will need an api key for the API. You can get it at: https://home.openweathermap.org/users/sign_up**
 
 ## to build the composer containers
 docker compose build -d
@@ -24,9 +25,9 @@ docker compose build -d
 ### To quickly get weather for one town, for example, London:
  ```docker run -e API_KEY='YOUR OPENWEATHER API KEY' weather-app_app weather London```
 
-note: If you want to avoid having to provide the key each time you run the application, 
-feel free to edit the file bootstrap/env.ini
-and substitute "PUT_YOUR_KEY_HERE" with your key
+**Note: If you want to avoid having to provide the API key each time you run the application**, 
+feel free to edit the file ```bootstrap/env.ini```
+and substitute ```PUT_YOUR_KEY_HERE``` with your key
 
 ## To run the test suite:
  docker run -it weather-app_tests run-tests
