@@ -1,5 +1,6 @@
 # weatherApp
 A simple PHP commandline weather application using the openweathermap API
+
 **NOTE: You will need an api key for the API. You can get it at: https://home.openweathermap.org/users/sign_up**
 
 ## to build the composer containers and start the documentation server:
