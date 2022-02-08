@@ -10,7 +10,7 @@ A simple PHP commandline weather application using the openweathermap API
 
 ### For interactive weather console
 
- ```docker run -it -e API_KEY='YOUR OPENWEATHER API KEY' weather-app_app bash```
+ ```docker run -it -e API_KEY='YOUR OPENWEATHER API KEY' weatherapp_app bash```
  
  And then:
  
@@ -25,14 +25,14 @@ A simple PHP commandline weather application using the openweathermap API
  ```weather Grzegorzewice```
  
 ### To quickly get weather for one town, for example, London:
- ```docker run -e API_KEY='YOUR OPENWEATHER API KEY' weather-app_app weather London```
+ ```docker run -e API_KEY='YOUR OPENWEATHER API KEY' weatherapp_app weather London```
 
 **Note: If you want to avoid having to provide the API key each time you run the application**, 
 feel free to edit the file ```bootstrap/env.ini```
 and substitute ```PUT_YOUR_KEY_HERE``` with your key
 
 ## To run the test suite:
- docker run -it weather-app_tests run-tests
+ docker run -it weatherapp_tests run-tests
 
 ## Documentation
 The documentation container by default sets up a simple web server to view the html version of the docs at http://localhost:8080/
