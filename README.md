@@ -4,7 +4,7 @@ A simple PHP commandline weather application using the openweathermap API
 
 ## to build the composer containers and start the documentation server:
 
-```docker-compose up -d```
+```docker-compose --project-name weatherapp up -d```
 
 ## To run the app itself:
 
